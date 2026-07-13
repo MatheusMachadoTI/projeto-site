@@ -9,26 +9,28 @@ body {
 
 main {
     background-color: white;
-    margin: auto;
-    box-shadow: 3px 3px 5px;
-    width: 500px;
-    padding: 10px;
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.3);
+    border-radius: 10px;
 }
 
 img {
-    width: 100px;
-    height: 100px;
-    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
 }
 
 img#logo {
-     width: 300px;
-    height: 130px;
-    margin: auto;  
+    max-width: 300px;
+    width: 100%;
 }
 
-img#html {
-     width: 250px;
-    height: 100px;
-    margin: auto;  
+img#html,
+img#javascript {
+    width: 100%;
+    height: auto;
 }
