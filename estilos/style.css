@@ -14,3 +14,21 @@ main {
     width: 500px;
     padding: 10px;
 }
+
+img#javascirpt {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+img#logo {
+     width: 300px;
+    height: 130px;
+    margin: auto;  
+}
+
+img#html {
+     width: 250px;
+    height: 100px;
+    margin: auto;  
+}
